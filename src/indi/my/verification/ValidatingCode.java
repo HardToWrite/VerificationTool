@@ -109,6 +109,9 @@ public class ValidatingCode {
 			BufferedImage bufferedImage = validatingCode.getImage();
 			System.out.println(validatingCode.getTestString());
 			validatingCode.output(bufferedImage, new FileOutputStream("F:/b.jpg"));
+
+
+			System.out.println();
 			
 	}
 }
